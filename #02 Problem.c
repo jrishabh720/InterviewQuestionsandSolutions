@@ -27,7 +27,7 @@
           {
               right[i] = right[i+1] * array[i+1];
           }
-       printf("\nThis is Multiplication of array[i-1] and right[i-1]\n");
+       printf("\nThis is Multiplication of array[i+1] and right[i+1]\n");
           for( i = 0 ; i <= x-1 ; i++)
           {
             printf("Array[%d] = %d , Right[%d] = %d\n",i,array[i],i,right[i]);
